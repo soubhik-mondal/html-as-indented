@@ -1,0 +1,31 @@
+{
+  "name": "html-as-indented",
+  "version": "1.0.0",
+  "description": "HTML but without all the angle brackets and closing tags",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "clear && ./node_modules/.bin/chokidar --initial \"src/**/*\" \"test/**/*\" -c \"clear && node src/test.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soubhik-mondal/html-as-indented.git"
+  },
+  "keywords": [
+    "PEG",
+    "HTML"
+  ],
+  "author": "Soubhik Mondal <souvikmondal.j@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/soubhik-mondal/html-as-indented/issues"
+  },
+  "homepage": "https://github.com/soubhik-mondal/html-as-indented#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "peggy": "^3.0.2"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}
